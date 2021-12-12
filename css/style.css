@@ -12,7 +12,7 @@ html {
 }
 
 .navbar-brand:hover{   
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .navbar-toggler {
@@ -39,29 +39,37 @@ html {
 }
 
 .carousel {
-    background-color: #efefef;
+    background-color: #c9d4e5;
 }
 
 .main-title {
-    background-color: #efefef;
+    background-color: #c9d4e5;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-title div h2 {
     padding: 5px;
     color: #716dc1;
-    font-size: 1.7em;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
     
 }
 
 .main-text {
     padding: 30px;
-    background-color: #efefef;
+    background-color: #c9d4e5;
     color: #171717;
 }
 
 .cards-section {
-    background-color: #efefef;
+    background-color: #c9d4e5;
 }
 .cards-section h1 {
     color: #716dc1;
@@ -69,6 +77,22 @@ html {
     font-weight: 700;
 }
 
+#footer {
+    background-color: #171717;
+    color: #c9d4e5;
+}
 
 
+.card {
+    height: 580px;
+    border-radius: 10px;
+}
 
+.card img {
+    border-radius: 10px 10px 25px 25px;
+}
+
+.btn {
+    
+
+}
